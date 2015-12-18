@@ -1,0 +1,30 @@
+body{
+    background-image: url(pictures/backgroundImage.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+body *{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    height: 200px;
+    margin: auto;
+    background-color: aqua;
+}
+.divNav ul li .aOne, #aOne{
+    color: #0bb84c;
+    font-family: Tahoma, Verdana, Arial;
+}
+#main{
+    height: 70rem;
+    background-color: whitesmoke;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+footer{
+    height: 10rem;
+    background-color: black;
+    opacity: 0.5;
+}
