@@ -17,11 +17,22 @@ header{
     color: #0bb84c;
     font-family: Tahoma, Verdana, Arial;
 }
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
 #main{
     height: 70rem;
     background-color: whitesmoke;
-    opacity: 0.3;
+    
     border-radius: 5px;
+}
+
+.item{
+	max-height: 350px;
+	max-width:auto;
 }
 footer{
     height: 10rem;
