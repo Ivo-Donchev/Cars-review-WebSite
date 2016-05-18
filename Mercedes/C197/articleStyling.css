@@ -1,0 +1,89 @@
+.Article{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align:justify;
+	float:none;
+	display:-moz-groupbox;
+}
+
+.ArticleSubHeading{
+	margin-left: 50px;
+	font-size: 18px;
+	font-family: Arial, Tahoma;
+}
+#ArticleHeading, h2{
+	font-family: Arial, Tahoma;
+	text-align: center;
+}
+#myCarousel{
+	margin: auto;
+	max-width: 700px;
+	
+}
+#carReview, #carCharacteristics, #carTestDrive{
+	display: block;
+	position:relative;
+	margin-right: auto;
+}
+.sideNavBar{
+	margin:auto;
+	display: block;
+	max-width: 800px;
+}
+button{
+	background-color:darkslateblue;
+	color: lightcyan;
+	border: none;
+	padding: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	width: 180px;
+	
+}
+button:hover{
+	transition: 0.5s;
+	background-color: lightslategrey;
+	color:black ;
+}
+button.activeButton{
+	background-color: lightslategrey;
+	color:black ;	
+}
+.sideNavBarElements{
+	display: inline-block;
+	position:relative;
+	margin: 20px;
+	margin-left: 40px
+	
+}
+.tableOfCharacteristics{
+	max-width: 700px;
+	height: auto;
+	background-color: darkkhaki;
+	color:black;
+}
+table{
+	width: 100%;
+	margin-bottom: 50px;
+}
+td{
+	height: 40px;
+}
+.key{
+	width: 
+		50%;
+	border: 0.5px solid grey;
+	text-align: center;
+}
+.value{
+	width: 50%;
+	border: 0.5px solid grey;
+	text-align: center;
+}
+iframe{
+	margin: auto;
+	display: block;
+}
